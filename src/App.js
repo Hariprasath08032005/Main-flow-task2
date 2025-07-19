@@ -45,12 +45,12 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>🎬 MovieLand</h1>
+      <h1>🎬Movie_Searching_Application🎬</h1>
 
       <div className="search-bar">
         <input
           type="text"
-          placeholder="Search movies..."
+          placeholder="Search movies here..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           onKeyDown={handleKeyDown}
